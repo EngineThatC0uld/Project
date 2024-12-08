@@ -1,0 +1,90 @@
+body, header{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background-color: white;
+}
+h1{
+    color: black;
+}
+
+.dropdown button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: orangered;
+    min-width: 100px;
+}
+
+/* Если наводим курсор на класс dropdown, то отображаем класс content */
+/* Типо до этого от dropdown мы видим только button */
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* .background-clip{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+} */
+
+.video-container{
+    width: 100%; 
+    position: relative;
+    z-index: 0;
+}
+
+.video-content {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+}
+#video1{
+    margin: 0px; 
+    display: block;
+    width: 100%;
+}
+
+#Logo{
+    padding: 30px 5px;
+    margin: 0px;
+    width: 20%;
+}
+img{
+    width: 100%;
+}
+#navigation{
+    padding: 15px 5px;
+    margin: 0px;
+}
