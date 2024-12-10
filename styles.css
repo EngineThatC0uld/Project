@@ -1,54 +1,63 @@
-body, header{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    background-color: white;
+body,
+header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color: white;
 }
-h1{
-    color: black;
-}
-
-.dropdown button{
-    background-color: transparent;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    font-weight: 600;
+h1,
+p,
+h2 {
+  color: white;
 }
 
-.dropdown a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 10px 15px;
+p {
+  font-weight: 300;
+  font-size: 15px;
 }
 
-.dropdown .content{
-    display: none;
-    position: absolute;
-    background-color: orangered;
-    min-width: 100px;
+.dropdown button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.dropdown a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+.dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: orangered;
+  min-width: 100px;
 }
 
 /* Если наводим курсор на класс dropdown, то отображаем класс content */
 /* Типо до этого от dropdown мы видим только button */
-.dropdown:hover .content{
-    display: block;
+.dropdown:hover .content {
+  display: block;
+  z-index: 1;
 }
 
-.dropdown:hover button{
-    text-decoration: underline;
-    text-decoration-color: orangered;
+.dropdown:hover button {
+  text-decoration: underline;
+  text-decoration-color: orangered;
 }
 
-a{
-    color: white;
-    text-decoration: none;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-a:hover{
-    color: white;
-    text-decoration: none;
+a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 /* .background-clip{
@@ -57,34 +66,77 @@ a:hover{
     width: 100%;
 } */
 
-.video-container{
-    width: 100%; 
-    position: relative;
-    z-index: 0;
+.video-container {
+  width: 100%;
+  position: relative;
+  z-index: 0;
 }
 
 .video-content {
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    padding: 5px 10px;
-    display: flex;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  padding: 5px 10px;
 }
-#video1{
-    margin: 0px; 
-    display: block;
-    width: 100%;
+#video1 {
+  margin: 0px;
+  display: block;
+  width: 100%;
+  filter: brightness(40%);
 }
 
-#Logo{
-    padding: 30px 5px;
-    margin: 0px;
-    width: 20%;
+#Logo {
+  padding: 30px 5px;
+  margin: 0px;
+  width: 20%;
 }
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-#navigation{
-    padding: 20px 5px;
-    margin: 0px;
+#navigation {
+  padding: 20px 5px;
+  margin: 0px;
+}
+
+.achievements {
+  border-left: 1px solid orangered;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+#cup {
+  height: auto;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+#First {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin: 0px;
+  font-size: 80px;
+}
+
+.under-navbar-section {
+  margin-top: 80px;
+  height: 300px;
+}
+.achievements-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+.column {
+  flex: 1 1 33%;
+  height: 300px;
+}
+
+.exc {
+  position: absolute;
+  top: -50px;
+  width: 300px;
 }
