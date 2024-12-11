@@ -8,11 +8,13 @@ h1,
 p,
 h2 {
   color: white;
+  font-weight: 700;
 }
 
 p {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 15px;
+  color: lightgray;
 }
 
 .dropdown button {
@@ -99,16 +101,29 @@ img {
 }
 
 .achievements {
-  border-left: 1px solid orangered;
+  border-left: 3px solid orangered;
   margin-right: 5px;
   margin-left: 5px;
-  height: 120px;
+  height: 150px;
   margin-bottom: 20px;
+  width: 100%;
+  align-content: center;
+}
+
+.achievements-bottom {
+  border-left: 3px solid orangered;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 150px;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-top: 70px;
+  align-content: center;
 }
 
 #cup {
   height: auto;
-  width: 30%;
+  width: 60%;
   margin-bottom: 20px;
   margin-top: 0px;
 }
@@ -117,7 +132,7 @@ img {
   padding-top: 10px;
   padding-bottom: 0px;
   margin: 0px;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .under-navbar-section {
@@ -137,6 +152,19 @@ img {
 
 .exc {
   position: absolute;
-  top: -50px;
-  width: 300px;
+  top: -45px;
+  width: 30%;
+}
+
+.tarif {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border: solid;
+  border-color: orangered;
+}
+
+.tarif:hover {
+  background-color: orangered;
 }
