@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Drupal code</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,125 +21,131 @@
   <body class>
     <header>
       <!-- В этом диве храним все из хедера -->
-      <div class="video-content px-5">
-        <div class="col-12 d-flex px-0" aria-label="navbar-and-logo">
-          <div id="Logo" class="mx-0 col-2">
-            <a href="#">
-              <img src="drupal-coder.svg" alt="Logo" />
-            </a>
-          </div>
-          <div id="navigation" class="mx-0 col-10">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="#">ПОДДЕРЖКА DRUPAL</a>
-              </li>
-              <li class="list-inline-item">
-                <div class="dropdown">
-                  <button>АДМИНИСТРИРОВАНИЕ ▼</button>
-                  <div class="content">
-                    <a href="#">МИГРАЦИЯ</a>
-                    <a href="#">БЭКАПЫ</a>
-                    <a href="#">АУДИТ БЕЗОПАСНОСТИ</a>
-                    <a href="#">ОПТИМИЗАЦИЯ СКОРОСТИ</a>
-                    <a href="#">ПЕРЕЕЗД НА HTTPS</a>
+      <div class="video-content">
+        
+        <div class="d-flex justify-content-center">
+          <div class="navbar-and-logo">
+            <div id="Logo" class="mx-0 col-2">
+              <a href="#">
+                <img src="drupal-coder.svg" alt="Logo" />
+              </a>
+            </div>
+            <div id="navigation" class="mx-0 col-10">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#">ПОДДЕРЖКА DRUPAL</a>
+                </li>
+                <li class="list-inline-item">
+                  <div class="dropdown">
+                    <button>АДМИНИСТРИРОВАНИЕ ▼</button>
+                    <div class="content">
+                      <a href="#">МИГРАЦИЯ</a>
+                      <a href="#">БЭКАПЫ</a>
+                      <a href="#">АУДИТ БЕЗОПАСНОСТИ</a>
+                      <a href="#">ОПТИМИЗАЦИЯ СКОРОСТИ</a>
+                      <a href="#">ПЕРЕЕЗД НА HTTPS</a>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">ПРОДВИЖЕНИЕ</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">РЕКЛАМА</a>
-              </li>
-              <li class="list-inline-item">
-                <div class="dropdown">
-                  <button>О НАС ▼</button>
-                  <div class="content">
-                    <a href="#">КОМАНДА</a>
-                    <a href="#">DRUPLAGIVE</a>
-                    <a href="#">БЛОГ</a>
-                    <a href="#">КУРСЫ</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">ПРОДВИЖЕНИЕ</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">РЕКЛАМА</a>
+                </li>
+                <li class="list-inline-item">
+                  <div class="dropdown">
+                    <button>О НАС ▼</button>
+                    <div class="content">
+                      <a href="#">КОМАНДА</a>
+                      <a href="#">DRUPLAGIVE</a>
+                      <a href="#">БЛОГ</a>
+                      <a href="#">КУРСЫ</a>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">ПРОЕКТЫ</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">КОНТАКТЫ</a>
-              </li>
-            </ul>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">ПРОЕКТЫ</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">КОНТАКТЫ</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="under-navbar-section col-12 mx-0 px-0 row">
-          <div class="col-6 mx-0 px-0" aria-label="left-section-and-button">
-            <h1>Поддержка сайтов на Drupal</h1>
-            <p class="py-3">
-              Сопровождение и поддержка сайтов на CMS Drupal любых версий и
-              запущенности
-            </p>
 
-            <div>
+        <div class="under-navbar-section mx-0 px-0">
+          <div class="left-section-and-button">
+            <div class="support">
+              <h1 class="title-header">Поддержка сайтов на Drupal</h1>
+              <p class="py-3 title-subheader">
+                Сопровождение и поддержка сайтов на CMS Drupal любых версий и
+                запущенности
+              </p>
+              
+            </div>
+            
+            <div class="button-container">
               <a href="#">
                 <button class="tarif">Тарифы</button>
               </a>
             </div>
+
           </div>
-          <div class="col-6 mx-0 px-0" name="right-section">
-            <div class="achievements-container d-flex">
-              <div class="column">
-                <div class="achievements">
-                  <div class="px-3 exc">
-                    <div class="d-flex exc1">
-                      <h1 id="First">#1</h1>
-                      <img src="cup.png" alt="" id="cup" />
-                    </div>
-                    <div class="exc2">
-                      <p>Drupal-разработчик в России по версии рейтинга Рунета</p>
-                    </div>
-                    
-                  </div>
-                </div>
+          <div class="right-section">
+            <div class="achievements-container">
 
-                <div class="achievements-bottom">
-                  <div class="px-3">
-                    <h1>50+</h1>
-                    <p>Модулей и тем в формате DrupalGive</p>
+              <div class="achievements">
+                <div class="px-3">
+                  <div class="d-flex">
+                    <h1 id="First">#1</h1>
+                    <img src="cup.png" alt="" id="cup" />
+                  </div>
+                  <div>
+                    <p>Drupal-разработчик в России по версии рейтинга Рунета</p>
                   </div>
                 </div>
               </div>
 
-              <div class="column">
-                <div class="achievements">
-                  <div class="px-3">
-                    <h1>3+</h1>
-                    <p>Средний опыт специалистов более 3 лет</p>
-                  </div>
-                </div>
-
-                <div class="achievements-bottom">
-                  <div class="px-3">
-                    <h1>90 000+</h1>
-                    <p>Модулей и тем в формате DrupalGive</p>
-                  </div>
+              <div class="achievements">
+                <div class="px-3">
+                  <h1>50+</h1>
+                  <p>Модулей и тем в формате DrupalGive</p>
                 </div>
               </div>
 
-              <div class="column">
-                <div class="achievements">
-                  <div class="px-3">
-                    <h1>14</h1>
-                    <p>Лет опыта в сфере Drupal</p>
-                  </div>
-                </div>
 
-                <div class="achievements-bottom">
-                  <div class="px-3">
-                    <h1>300+</h1>
-                    <p>Проектов на поддержке</p>
-                  </div>
+              <div class="achievements">
+                <div class="px-3">
+                  <h1>3+</h1>
+                  <p>Средний опыт специалистов более 3 лет</p>
                 </div>
               </div>
+
+              <div class="achievements">
+                <div class="px-3">
+                  <h1>90 000+</h1>
+                  <p>Модулей и тем в формате DrupalGive</p>
+                </div>
+              </div>
+
+
+
+              <div class="achievements">
+                <div class="px-3">
+                  <h1>14</h1>
+                  <p>Лет опыта в сфере Drupal</p>
+                </div>
+              </div>
+
+              <div class="achievements">
+                <div class="px-3">
+                  <h1>300+</h1>
+                  <p>Проектов на поддержке</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
